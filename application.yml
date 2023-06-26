@@ -1,3 +1,8 @@
 spring:
   application:
     name: employee-app
+  datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        password: mysql
+        url: jdbc:mysql://localhost:3306/microservice
+        username: root
