@@ -1,4 +1,6 @@
 spring:
+  active:
+    profile: dev   
   application:
     name: employee-app
   datasource:
